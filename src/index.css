@@ -1,0 +1,14 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media print {
+  nav, footer, .btn, .no-print {
+    display: none !important;
+  }
+}
